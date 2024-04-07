@@ -20,14 +20,14 @@ sleep(50)
 username = driver.find_element(By.ID, 'session_key')
 
 # send_keys() to simulate keystrokes
-username.send_keys('kamalmaryam568@gmail.com')  # Your log-in Email
+username.send_keys('@gmail.com')  # Your log-in Email
 sleep(50)
 
 # locate password form by_id
 password = driver.find_element(By.ID, "session_password")
 
 # send_keys() to simulate keystrokes
-password.send_keys('allah1234')  # Your log-in password
+password.send_keys('password')  # Your log-in password
 sleep(50)
 
 # locate submit button by_class_name
