@@ -40,7 +40,7 @@ sign_in_button.click()
 sleep(50)
 
 # Navigating to required profile
-link = 'https://www.linkedin.com/in/maryamkamal/'  # Profile link which you want to scrape
+link = 'LinkedIn profile url'  # Profile link which you want to scrape
 driver.get(link)
 
 # To wait till all page HTML loads of the required profile
